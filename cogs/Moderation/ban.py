@@ -39,7 +39,7 @@ class Ban(commands.Cog):
             )
             return await ctx.send(embed=error_embed)
 
-        # Create a dark-themed embed for the ban notification
+       
         embed = discord.Embed(
             title="> ***ACTION: <:ban:1287274889178517524> BAN***",
             description=f"> <a:x_dot:1260287109219225663> *{member.mention} has been banned.*",
